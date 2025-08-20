@@ -1,0 +1,207 @@
+
+body{
+    background-image: url(https://img.goodfon.com/wallpaper/big/f/9a/lionel-messi-barcelona-lionel-messi-futbolist-poza-sportsmen.webp);
+    background-repeat: no-repeat;
+    justify-content: center;
+    background-size: cover;
+    background-attachment: fixed;
+    color: white;
+    margin: 0px;
+    
+
+
+}
+
+.parent {
+    display: grid;
+    grid-template-columns: repeat(5, 1fr);
+    grid-template-rows: repeat(8, 1fr);
+    gap: 8px;
+    height: 1000px;
+}
+    
+.div1 {
+    grid-column: span 5 / span 5;
+    display: flex;
+    justify-content: center;
+margin-right: 20px;
+
+}
+
+.div2 {
+    grid-column: span 5 / span 5;
+    grid-row-start: 2;
+    color:white;
+
+}
+
+
+.div3 {
+    grid-row: span 6 / span 6;
+    grid-row-start: 3;
+}
+
+
+
+.div4 {
+    grid-column: span 3 / span 3;
+    grid-row: span 6 / span 6;
+    grid-row-start: 3;
+    p{
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 20px;}
+    h2{
+    
+    font-family: Arial, Helvetica, sans-serif;font-size: 24px;
+        font-weight: 300;
+        line-height: 150%;
+        margin-bottom: 16px;}
+
+b{font-family: Arial, Helvetica, sans-serif;font-size: 20px;}
+i{font-family: Arial, Helvetica, sans-serif;font-size: 20px;}
+height: max-content
+
+}
+
+
+.div5 {
+    grid-row: span 6 / span 6;
+    grid-column-start: 5;
+    grid-row-start: 3;
+}
+
+.div6 {
+    
+    margin-top: 40px;
+    grid-column: span 5 / span 5;
+    grid-row-start: 9;
+    justify-content: left;
+    font-family: Arial, Helvetica, sans-serif;
+    a{
+        text-decoration: none;
+        color: black;
+    }
+}
+
+.nave{
+    background-color: white;
+    display: flex;
+    list-style-type: none;
+    
+}
+
+ul{
+    display:flex; 
+    list-style-type: none;
+}
+        
+li a{
+    margin: 20px;
+    padding: 5px 10px;
+    background-color: rgb(255, 255, 255);
+    border-radius: 40px;
+    justify-content: left;
+    display: flex;
+    gap: 20px;
+}
+
+
+
+.caja{
+    height: 400px;
+    width: 400px;
+    background-color:white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-left: 40px;
+
+}
+
+.contenedor{
+    display: flex;
+}
+
+.titulo {
+border-bottom: 1px solid;color: darkgrey;
+
+}
+span{
+color:white;    
+border-bottom: 3px solid orange;
+}
+
+.Baptist{
+font-size: 24px;
+text-align: center;
+color: white;
+}
+
+
+.jp3{
+font-size: 16px;
+font-weight: 300;
+line-height: 1.6;
+color: white;
+
+}
+
+.doou{
+font-size:24px;
+text-align: center;
+width: 30%;
+
+}
+
+.shit{
+  box-shadow: 2px 2px 20px 2px#0fa;
+}
+
+.bitch{
+    display: flex;
+    justify-content: start;
+    width: 100%;
+    text-shadow:
+    0 0 7px #0fa,
+    0 0 10px #0fa,
+    0 0 21px #0fa,
+    0 0 42px #0fa,
+    0 0 82px #0fa,
+    0 0 92px #0fa,
+    0 0 102px #0fa,
+    0 0 151px #0fa;
+}
+
+.boby{
+padding: 32px 32px 32px 104px;
+flex-direction: column;
+width: 90%;
+background-color: rgb(59, 59, 59);
+height: 10%;
+text-align: center;
+animation: parpadear 6s infinite;
+
+}
+
+@keyframes parpadear {
+    0%{
+        background-color: black ;
+    }
+    25%{
+    background-color: rgb(59, 59, 59);
+    }
+    50%{
+        background-color:rgb(255, 166, 0);
+    }
+    75%{
+        background-color: rgb(59, 59, 59);
+    }
+
+    100%{
+        background-color: black;
+    }
+}
+
+.div4:hover{
+    
+}
