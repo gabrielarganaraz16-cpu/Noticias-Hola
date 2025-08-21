@@ -49,7 +49,8 @@ margin-right: 20px;
     grid-row-start: 3;
     p{
     font-family: Arial, Helvetica, sans-serif;
-    font-size: 20px;}
+    font-size: 20px;
+}
     h2{
     
     font-family: Arial, Helvetica, sans-serif;font-size: 24px;
@@ -161,15 +162,6 @@ width: 30%;
     display: flex;
     justify-content: start;
     width: 100%;
-    text-shadow:
-    0 0 7px #0fa,
-    0 0 10px #0fa,
-    0 0 21px #0fa,
-    0 0 42px #0fa,
-    0 0 82px #0fa,
-    0 0 92px #0fa,
-    0 0 102px #0fa,
-    0 0 151px #0fa;
 }
 
 .boby{
@@ -202,6 +194,3 @@ animation: parpadear 6s infinite;
     }
 }
 
-.div4:hover{
-    
-}
