@@ -50,6 +50,8 @@ margin-right: 20px;
     p{
     font-family: Arial, Helvetica, sans-serif;
     font-size: 20px;
+
+    
 }
     h2{
     
@@ -61,9 +63,7 @@ margin-right: 20px;
 b{font-family: Arial, Helvetica, sans-serif;font-size: 20px;}
 i{font-family: Arial, Helvetica, sans-serif;font-size: 20px;}
 height: max-content
-
 }
-
 
 .div5 {
     grid-row: span 6 / span 6;
@@ -136,6 +136,15 @@ border-bottom: 3px solid orange;
 font-size: 24px;
 text-align: center;
 color: white;
+text-shadow:
+    0 0 7px #0fa,
+    0 0 10px #0fa,
+    0 0 21px #0fa,
+    0 0 42px #fff,
+    0 0 82px #fff,
+    0 0 92px #fff,
+    0 0 102px #fff,
+    0 0 151px #fff;
 }
 
 
@@ -144,6 +153,15 @@ font-size: 16px;
 font-weight: 300;
 line-height: 1.6;
 color: white;
+text-shadow:
+    0 0 7px #0fa,
+    0 0 10px #0fa,
+    0 0 21px #0fa,
+    0 0 42px #fff,
+    0 0 82px #fff,
+    0 0 92px #fff,
+    0 0 102px #fff,
+    0 0 151px #fff;
 
 }
 
