@@ -7,12 +7,10 @@ body{
     background-attachment: fixed;
     color: white;
     margin: 0px;
-    
-
 
 }
 
-.parent {
+.parent{
     display: grid;
     grid-template-columns: repeat(5, 1fr);
     grid-template-rows: repeat(8, 1fr);
@@ -24,14 +22,15 @@ body{
     grid-column: span 5 / span 5;
     display: flex;
     justify-content: center;
-margin-right: 20px;
-
+    margin-right: 20px;
 }
+
+
 
 .div2 {
     grid-column: span 5 / span 5;
     grid-row-start: 2;
-    color:white;
+    color:orange;
 
 }
 
@@ -78,32 +77,36 @@ height: max-content
     grid-row-start: 9;
     justify-content: left;
     font-family: Arial, Helvetica, sans-serif;
-    a{
+    background-color: black;
+
+}
+ a{
         text-decoration: none;
         color: black;
     }
-}
 
-.nave{
-    background-color: white;
-    display: flex;
-    list-style-type: none;
-    
-}
 
 ul{
     display:flex; 
     list-style-type: none;
+
 }
+
         
 li a{
     margin: 20px;
     padding: 5px 10px;
     background-color: rgb(255, 255, 255);
-    border-radius: 40px;
+    border-radius: 60px;
     justify-content: left;
     display: flex;
     gap: 20px;
+}
+
+.flash a:hover{
+background-color:rgb(59, 59, 59);
+    color: white;
+
 }
 
 
@@ -136,15 +139,12 @@ border-bottom: 3px solid orange;
 font-size: 24px;
 text-align: center;
 color: white;
-text-shadow:
-    0 0 7px #0fa,
-    0 0 10px #0fa,
-    0 0 21px #0fa,
-    0 0 42px #fff,
-    0 0 82px #fff,
-    0 0 92px #fff,
-    0 0 102px #fff,
-    0 0 151px #fff;
+
+}
+
+.Baptist:hover{
+color: rgb(59, 59, 59);
+background-color: white;
 }
 
 
@@ -153,17 +153,16 @@ font-size: 16px;
 font-weight: 300;
 line-height: 1.6;
 color: white;
-text-shadow:
-    0 0 7px #0fa,
-    0 0 10px #0fa,
-    0 0 21px #0fa,
-    0 0 42px #fff,
-    0 0 82px #fff,
-    0 0 92px #fff,
-    0 0 102px #fff,
-    0 0 151px #fff;
-
+width: max-content;
+align-items: center;
 }
+
+.jp3:hover{
+color: rgb(59, 59, 59);
+background-color: #fff;
+    
+}
+
 
 .doou{
 font-size:24px;
@@ -173,8 +172,45 @@ width: 30%;
 }
 
 .shit{
-  box-shadow: 2px 2px 20px 2px#0fa;
+  box-shadow: 4px 4px 30px 10px#fff;
+  animation: gang 4s infinite;
 }
+
+
+.shit:hover{
+  box-shadow: 4px 4px 30px 10px#fff;
+  animation: ho 1s;
+}
+@keyframes ho {
+   
+}
+
+@keyframes gang {
+0%{
+    box-shadow: 2px 2px 20px 4px#fff;
+}
+25%{
+
+    box-shadow: 4px 4px 30px 10px #fff;
+}
+
+50%{
+box-shadow: 2px 2px 20px 4px#fff;
+
+}
+
+75%{
+box-shadow: 4px 4px 30px 10px #fff;
+
+}
+
+100%{
+box-shadow: 2px 2px 20px 4px#fff;
+
+}
+
+}
+
 
 .bitch{
     display: flex;
@@ -201,7 +237,7 @@ animation: parpadear 6s infinite;
     background-color: rgb(59, 59, 59);
     }
     50%{
-        background-color:rgb(255, 166, 0);
+        background-color:black;
     }
     75%{
         background-color: rgb(59, 59, 59);
@@ -212,3 +248,7 @@ animation: parpadear 6s infinite;
     }
 }
 
+.good a:hover{
+    background-color:rgb(59, 59, 59);
+    color: white;
+}
