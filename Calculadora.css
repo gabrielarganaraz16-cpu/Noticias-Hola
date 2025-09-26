@@ -1,0 +1,258 @@
+
+.parent {
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    grid-template-rows: repeat(7, 1fr);
+    gap: 8px;
+}
+    
+.div1 {
+    grid-column: span 4 / span 4;
+    background-color: rgb(104, 104, 104);
+    color: white;
+}
+.div1:hover{
+    background-color: rgb(59, 59, 59);
+}
+
+.div2 {
+    grid-row-start: 2;
+    background-color: rgb(104, 104, 104);
+    color: white;
+}
+.div2:hover{
+    background-color: rgb(59, 59, 59);
+}
+
+.div3 {
+    grid-row-start: 2;
+    background-color: rgb(104, 104, 104);
+    color: white;
+}
+.div3:hover{
+    background-color: rgb(59, 59, 59);
+}
+
+.div4 {
+    grid-row-start: 2;
+    background-color: rgb(104, 104, 104);
+    color: white;
+}
+.div4:hover{
+    background-color: rgb(59, 59, 59);
+}
+
+.div5 {
+    grid-row-start: 2;
+    background-color: rgb(104, 104, 104);
+    color: white;
+}
+.div5:hover{
+    background-color: rgb(59, 59, 59);
+}
+
+.div6 {
+
+    grid-row-start: 3;
+    background-color: rgb(104, 104, 104);
+    color: white;
+}
+.div6:hover{
+    background-color: rgb(59, 59, 59);
+}
+
+.div7 {
+    grid-row-start: 3;
+    background-color: rgb(104, 104, 104);
+    color: white;
+}
+.div7:hover{
+    background-color: rgb(59, 59, 59);
+}
+
+.div8 {
+    grid-row-start: 3;
+    background-color: rgb(104, 104, 104);
+    color: white;
+}
+.div8:hover{
+    background-color: rgb(59, 59, 59);
+}
+.div9 {
+    grid-row-start: 3;
+    background-color: rgb(104, 104, 104);
+    color: white;
+}
+.div9:hover{
+    background-color: rgb(59, 59, 59);
+}
+
+.div10{
+
+    grid-row-start: 4;
+    background-color: rgb(104, 104, 104);
+    color: white;
+}
+.div10:hover{
+    background-color: rgb(59, 59, 59);
+}
+
+
+.div11 {
+    grid-row-start: 4;
+    background-color: rgb(104, 104, 104);
+    color: white;
+}
+.div11:hover{
+    background-color: rgb(59, 59, 59);
+}
+
+.div12 {
+    grid-row-start: 4;
+    background-color: rgb(104, 104, 104);
+    color: white;
+}
+.div12:hover{
+    background-color: rgb(59, 59, 59);
+}
+
+.div13 {
+    grid-row-start: 4;
+background-color: rgb(104, 104, 104);
+color: white;
+}
+.div13:hover{
+    background-color: rgb(59, 59, 59);
+}
+
+.div14 {
+
+    grid-row-start: 5;
+    background-color: rgb(104, 104, 104);
+    color: white;
+}
+.div14:hover{
+   background-color: rgb(59, 59, 59);
+}
+
+
+.div15 {
+    grid-row-start: 5;
+    background-color: rgb(104, 104, 104);
+    color: white;
+}
+.div15:hover{
+   background-color: rgb(59, 59, 59);
+}
+
+.div16 {
+    grid-row-start: 5;
+    background-color: rgb(104, 104, 104);
+    color: white;
+}
+.div16:hover{
+    background-color: rgb(59, 59, 59);
+}
+
+.div17 {
+    grid-row-start: 5;
+    background-color: rgb(104, 104, 104);
+    color: white;
+}
+.div17:hover{
+   background-color: rgb(59, 59, 59);
+}
+
+.div18 {
+
+    grid-row-start: 6;
+    background-color: rgb(104, 104, 104);
+    color: white;
+}
+.div18:hover{
+    background-color: rgb(59, 59, 59);
+}
+
+.div19 {
+    grid-row-start: 6;
+    background-color: rgb(104, 104, 104);
+    color: white;
+}
+.div19:hover{
+    background-color: rgb(59, 59, 59);
+}
+
+.div20 {
+    grid-row-start: 6;
+    background-color: rgb(104, 104, 104);
+    color: white;
+}
+.div20:hover{
+    background-color: rgb(59, 59, 59);
+}
+
+.div21 {
+    grid-row-start: 6;
+    background-color: rgb(104, 104, 104);
+    color: white;
+}
+.div21:hover{
+    background-color: rgb(59, 59, 59);
+}
+
+.div22 {
+
+    grid-row-start: 7;
+    background-color: rgb(104, 104, 104);
+    color: white;
+}
+.div22:hover{
+    background-color: rgb(59, 59, 59);
+}
+
+.div23 {
+    grid-row-start: 7;
+    background-color: rgb(104, 104, 104);
+    color: white;
+}
+
+.div23:hover{
+    background-color: rgb(59, 59, 59);
+}
+.div24 {
+    grid-row-start: 7;
+    background-color: rgb(104, 104, 104);
+    color: white;
+}
+.div24:hover{
+    background-color: rgb(59, 59, 59);
+}
+
+.div25 {
+    grid-row-start: 7;
+    background-color: darkturquoise;
+    color: white;
+}
+.div25:hover{
+   background-color: lightseagreen;
+}
+
+div{
+    border : solid black 4px;
+    height: 700px;
+    width: 1400px;
+    display: flex;
+    background-color: rgb(82, 82, 82);
+    
+}
+
+h1{
+    color: white;
+    margin: 20px;
+    
+}
+
+body{
+    background-color: black;
+}
+
